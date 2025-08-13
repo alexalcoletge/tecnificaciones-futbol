@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tecnificaciones de Fútbol Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <img src="logo.png" alt="Logo de la empresa" class="logo">
+    <h1>Tecnificaciones de Fútbol Pro</h1>
+    <p>Entrenamiento especializado para jugadores que quieren llevar su juego al siguiente nivel</p>
+  </header>
+
+  <!-- Servicios -->
+  <section class="servicios">
+    <h2>Servicios</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Entrenamiento Individual</h3>
+        <p>Sesiones personalizadas para mejorar técnica, velocidad y toma de decisiones.</p>
+      </div>
+      <div class="card">
+        <h3>Grupos Reducidos</h3>
+        <p>Entrenamientos en grupos pequeños para potenciar el trabajo en equipo y la competencia.</p>
+      </div>
+      <div class="card">
+        <h3>Clínicas de Fin de Semana</h3>
+        <p>Eventos intensivos para perfeccionar habilidades específicas en poco tiempo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section class="galeria">
+    <h2>Galería</h2>
+    <div class="imagenes">
+      <img src="foto1.jpg" alt="Entrenamiento 1">
+      <img src="foto2.jpg" alt="Entrenamiento 2">
+      <img src="foto3.jpg" alt="Entrenamiento 3">
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section class="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu email" required>
+      <textarea placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2025 Tecnificaciones de Fútbol Pro | info@futbolpro.com</p>
+  </footer>
+
+</body>
+</html>
